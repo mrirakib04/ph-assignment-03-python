@@ -40,3 +40,10 @@ if (
     print("Store")
 else:
     print("Delete")
+
+
+# Problem 05 - ( PH Email Generator )
+student = {"name": "jhanku", "roll": 1014, "department": "cse"}
+# write your code here
+email = f"{student['name'].lower()}{student['roll']}.{student['department'].lower()}@ph.ac.bd"
+print(email)
