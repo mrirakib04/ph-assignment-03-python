@@ -26,3 +26,17 @@ for i in range(lastDay):
         print(i, " - medicine")
     else:
         print(i, " - rest")
+
+
+# Problem 04 - (Delete / Store)
+fileName = "pdfData.jpg"
+# write your code here
+splitName = fileName.split(".")
+if (
+    splitName[0][0] == "#"
+    or splitName[len(splitName) - 1] == "pdf"
+    or splitName[len(splitName) - 1] == "docx"
+):
+    print("Store")
+else:
+    print("Delete")
