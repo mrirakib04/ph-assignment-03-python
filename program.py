@@ -16,3 +16,13 @@ if money > 0 and money <= 10**9:
         print("Cycle")
     else:
         print("Chocolate")
+
+
+# Problem -03 ( Medicine Planner )
+lastDay = 11
+# write your code here
+for i in range(lastDay):
+    if i % 3 == 0:
+        print(i, " - medicine")
+    else:
+        print(i, " - rest")
